@@ -19,5 +19,5 @@
         "checkJs": true /* Report errors in .js files. Works in tandem with allowJs. */,
     },
     "include": ["/"],
-    "exclude": ["node_modules", "build"] // *** The files to not type check ***
+    "exclude": ["node_modules", "dist"] // *** The files to not type check ***
 }

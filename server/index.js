@@ -17,7 +17,7 @@ app.use((req, res, next) => {
     next();
 });
 
-app.use(express.static(path.join(__dirname, '../client/build')));
+app.use(express.static(path.join(__dirname, '/dist', 'index.html')));
 
 app.get('/getCelebrity/:celebrity', (req, res) => {
     axios(`http://www.rottentomatoes.com/celebrity/${req.params.celebrity}`)
