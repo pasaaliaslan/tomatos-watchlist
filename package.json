@@ -5,7 +5,8 @@
   "author": "Pasa Ali Aslan",
   "license": "MIT",
   "scripts": {
-    "start": "node server/index.js"
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build"
   },
   "dependencies": {
     "heroku": "^7.59.2",

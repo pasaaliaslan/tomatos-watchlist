@@ -14,8 +14,8 @@
     "pretty": "^2.0.0"
   },
   "scripts": {
-    "start": "nodemon index.js",
-    "build": "cd client && yarn install && yarn run build"
+    "start": "node index.js",
+    "build": "cd ../client && npm install && npm run build"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.3",
