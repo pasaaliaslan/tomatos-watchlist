@@ -1,11 +1,16 @@
-const path = require('path');
+import path from 'path';
+import { fileURLToPath } from 'url';
+
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 module.exports = {
-    entry: path.resolve('index.tsx'),
+    entry: path.join(__dirname, 'index.tsx'),
     output: {
-        path: path.resolve('dist'),
+        path: path.join(__dirname, 'dist'),
         filename: 'bundle.js',
     },
     mode: 'development',
@@ -39,7 +44,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: path.resolve(__dirname, '../public/index.html'),
+            template: path.join(__dirname, '../public/index.html'),
         }),
         new CleanWebpackPlugin(),
     ],
