@@ -10,3 +10,5 @@ yarn.lock
 
 /server/yarn.lock
 /client/yarn.lock
+
+/client/dist
