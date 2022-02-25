@@ -1,0 +1,25 @@
+.Loading {
+    display: flex;
+    height: 416px;
+    background-color: rgba(200, 200, 200, 0.5);
+    align-items: center;
+    justify-content: center;
+}
+
+.LoadingRing {
+    border: 20px solid #eaf0f6;
+    border-radius: 50%;
+    border-top: 20px solid #fa320a;
+    width: 128px;
+    height: 128px;
+    animation: spinner 2s linear infinite;
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

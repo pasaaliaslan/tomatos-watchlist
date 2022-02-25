@@ -1,0 +1,10 @@
+{
+  "name": "tomatos-watchlist",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Pasa Ali Aslan",
+  "license": "MIT",
+  "dependencies": {
+    "heroku": "^7.59.2"
+  }
+}

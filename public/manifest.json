@@ -1,0 +1,12 @@
+{
+  "short_name": "Tomato's Watchlist",
+  "name": "Tomato's Watchlist",
+  "icons": [
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    }
+  ],
+  "display": "standalone"
+}

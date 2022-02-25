@@ -1,0 +1,16 @@
+.WelcomeMessage {
+    padding: 32px;
+    height: 100%;
+    width: 100%;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.WelcomeMessage h1 {
+    text-align: center;
+}
+
+.WelcomeMessage a {
+    color: #fa320a;
+    text-decoration: none;
+}

@@ -1,0 +1,39 @@
+.ExpandedNavBar {
+    padding: 0px 128px 0px 128px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0px;
+    align-items: flex-end;
+    min-height: 128px;
+}
+
+.ExpandedNavBar .TitleCard {
+    text-decoration: none;
+    font-size: 48px;
+    color: #fa320a;
+}
+
+.ExpandedNavBar .TitleCard:hover {
+    color: #fa320a;
+}
+
+.ExpandedNavBar .Links {
+    display: flex;
+    height: 64px;
+    align-items: flex-end;
+    gap: 32px;
+}
+
+.ExpandedNavBar .Links .NavBarItem {
+    text-decoration: none;
+    padding-top: 16px;
+    font-size: 24px;
+    color: #fa320a;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+}
+
+.ExpandedNavBar .Links .NavBarItem:hover {
+    color: #d82400;
+}

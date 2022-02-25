@@ -1,0 +1,14 @@
+.OffcanvasTitle {
+    text-decoration: none;
+    font-size: 32px;
+    color: #fa320a;
+    margin-top: 16px;
+
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.OffcanvasTitle:hover {
+    color: #fa320a;
+}

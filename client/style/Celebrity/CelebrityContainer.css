@@ -1,0 +1,15 @@
+.CelebrityContainer {
+    background-color: #ffffff;
+    height: 416px;
+    width: 100%;
+}
+
+.Content {
+    display: flex;
+    flex-direction: row;
+    height: inherit;
+    width: inherit;
+    gap: 16px;
+    padding: 16px 16px 0px 16px;
+    align-items: stretch;
+}

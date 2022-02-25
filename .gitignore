@@ -1,0 +1,12 @@
+node_modules
+.env
+yarn.lock
+.babel
+
+/build
+
+/server/node_modules
+/client/node_modules
+
+/server/yarn.lock
+/client/yarn.lock

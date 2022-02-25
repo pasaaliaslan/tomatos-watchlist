@@ -1,0 +1,33 @@
+.CelebrityMovieList {
+    flex: 1;
+    height: 368px;
+    overflow: auto;
+}
+
+.CelebrityMovieList table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.CelebrityMovieList thead,
+.CelebrityMovieList thead th {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.CelebrityMovieList thead {
+    border-bottom: 0.1cm solid black;
+}
+
+.CelebrityMovieList tbody {
+    height: 200px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.CelebrityMovieList tbody tr td a {
+    text-decoration: none;
+    color: #fa320a;
+}

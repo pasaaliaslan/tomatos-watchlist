@@ -1,0 +1,31 @@
+.WatchlistItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 8px;
+    gap: 16px;
+}
+
+.WatchlistItem .movieContent {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    width: 100%;
+    gap: 16px;
+}
+
+.WatchlistItem .movieContent img {
+    height: 128px;
+    border-radius: 16px;
+}
+
+.WatchlistItem .movieContent .TextInfo {
+    height: 100%;
+}
+
+.WatchlistItem .movieContent .TextInfo .Badges {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}

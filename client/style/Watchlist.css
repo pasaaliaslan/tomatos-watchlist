@@ -1,0 +1,40 @@
+.Watchlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.Watchlist .content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 80%;
+    overflow: auto;
+}
+
+.Watchlist .SearchLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 32px;
+}
+
+.Watchlist .SearchLine .SearchBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    gap: 32px;
+}
+
+.Watchlist .SearchLine .SearchBar input {
+    width: 100%;
+}
+
+.Watchlist .SearchLine .GenreFilter {
+    width: 32%;
+    height: 100%;
+}

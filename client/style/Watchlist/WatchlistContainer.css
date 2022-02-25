@@ -1,0 +1,12 @@
+.WatchlistContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    background-color: #ffffff;
+    height: 416px;
+    width: 100%;
+    min-width: 656px;
+    overflow: auto;
+    padding: 16px;
+}

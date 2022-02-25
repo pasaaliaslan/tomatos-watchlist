@@ -1,0 +1,22 @@
+.offcanvas-title {
+    color: #fa320a;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.offcanvas-title:hover {
+    color: #fa320a;
+}
+
+.offcanvas-body .NavBarItem {
+    text-decoration: none;
+    padding-top: 16px;
+    font-size: 16px;
+    color: #fa320a;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+}
+
+.offcanvas-body .NavBarItem:hover {
+    color: #d82400;
+}
