@@ -1,6 +1,7 @@
 import axios from 'axios';
 import cheerio from 'cheerio';
 import express from 'express';
+import path from 'path';
 import parseCelebrityInfo from './Celebrity.js';
 import parseMovieInfo from './Movie.js';
 
