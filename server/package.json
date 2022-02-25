@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "build": "cd ../client && npm install && npm run build"
+    "build": "cd ../client && yarn install && yarn run build"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.3",
