@@ -6,7 +6,7 @@ import { fileURLToPath } from 'url';
 import parseCelebrityInfo from './Celebrity.js';
 import parseMovieInfo from './Movie.js';
 
-const PORT = process.env.PORT | 8000;
+const PORT = process.env.PORT || 8000;
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
