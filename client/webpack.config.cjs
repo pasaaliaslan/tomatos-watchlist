@@ -1,10 +1,9 @@
-import path from 'path';
-import { fileURLToPath } from 'url';
-
+const url = require('url');
+const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
-const __filename = fileURLToPath(import.meta.url);
+const __filename = url.fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 module.exports = {
