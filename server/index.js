@@ -2,10 +2,13 @@ import axios from 'axios';
 import cheerio from 'cheerio';
 import express from 'express';
 import path from 'path';
+import { fileURLToPath } from 'url';
 import parseCelebrityInfo from './Celebrity.js';
 import parseMovieInfo from './Movie.js';
 
 const PORT = process.env.PORT | 8000;
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const app = express();
 
@@ -14,7 +17,7 @@ app.use((req, res, next) => {
     next();
 });
 
-app.use(express.static(path.resolve(__dirname, '../client/build')));
+app.use(express.static(path.join(__dirname, '../client/build')));
 
 app.get('/getCelebrity/:celebrity', (req, res) => {
     axios(`http://www.rottentomatoes.com/celebrity/${req.params.celebrity}`)
