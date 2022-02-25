@@ -3,8 +3,6 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
-const __dirname = path.dirname(__filename);
-
 module.exports = {
     entry: path.join(__dirname, 'index.tsx'),
     output: {
@@ -47,7 +45,7 @@ module.exports = {
         new CleanWebpackPlugin(),
     ],
     devServer: {
-        static: path.join(__dirname, './'),
+        static: path.join(__dirname),
         port: 3001,
         hot: 'only',
         compress: true,
