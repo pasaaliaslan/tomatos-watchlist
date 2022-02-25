@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { ExtendedMovie } from '../types';
+import { ExtendedMovie } from '../../types';
 
 interface WatchlistState {
     movies: ExtendedMovie[];

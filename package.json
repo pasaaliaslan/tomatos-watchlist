@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node server/index.js",
-    "build": "cd client && yarn install && yarn run build"
+    "build": "cd client && npm install && npm run build"
   },
   "dependencies": {
     "@popperjs/core": "^2.10.2",

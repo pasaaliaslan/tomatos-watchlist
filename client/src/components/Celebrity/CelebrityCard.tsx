@@ -1,4 +1,4 @@
-import { Celebrity } from '../../types';
+import { Celebrity } from '../../../types';
 import '../../style/Celebrity/CelebrityCard.css';
 
 export default function CelebrityCard({ celebrity }: { celebrity: Celebrity }) {

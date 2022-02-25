@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { ExtendedMovie } from '../../types';
+import { ExtendedMovie } from '../../../types';
 import { useAppDispatch } from '../../hooks/reduxHooks';
 import { REMOVE } from '../../redux/Watchlist';
 import '../../style/Watchlist/WatchlistItem.css';

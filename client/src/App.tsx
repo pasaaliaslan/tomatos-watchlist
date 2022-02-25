@@ -4,7 +4,7 @@ import './style/App.css';
 import NavBar from './components/NavBar/NavBar';
 import getCelebrity from './services/getCelebrity';
 import CelebrityContainer from './components/Celebrity/CelebrityContainer';
-import { Celebrity, ToastMessage, TOAST_IMPROPER_INPUT, TOAST_NO_SUCH_CELEBRITY, TOAST_SUCCESS } from './types';
+import { Celebrity, ToastMessage, TOAST_IMPROPER_INPUT, TOAST_NO_SUCH_CELEBRITY, TOAST_SUCCESS } from '../types';
 import OffcanvasNavBar from './components/NavBar/OffcanvasNavBar';
 
 export default function App() {

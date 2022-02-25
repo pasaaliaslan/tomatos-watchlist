@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Select, { MultiValue } from 'react-select';
-import { optionGenres, SelectOption } from './types';
+import { optionGenres, SelectOption } from '../types';
 import NavBar from './components/NavBar/NavBar';
 import OffcanvasNavBar from './components/NavBar/OffcanvasNavBar';
 import WatchlistContainer from './components/Watchlist/WatchlistContainer';

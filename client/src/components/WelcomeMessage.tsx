@@ -1,4 +1,4 @@
-import { TITLE } from '../types';
+import { TITLE } from '../../types';
 import '../style/WelcomeMessage.css';
 
 export default function WelcomeMessage() {

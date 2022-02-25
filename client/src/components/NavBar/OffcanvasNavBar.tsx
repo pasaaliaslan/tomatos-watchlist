@@ -1,6 +1,6 @@
 import { Navbar, Offcanvas, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { TITLE } from '../../types';
+import { TITLE } from '../../../types';
 import '../../style/NavBar/OffcanvasNavBar.css';
 
 export default function OffcanvasNavBar() {

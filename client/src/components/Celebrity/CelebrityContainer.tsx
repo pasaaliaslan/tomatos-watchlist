@@ -1,5 +1,5 @@
 import React from 'react';
-import { Celebrity } from '../../types';
+import { Celebrity } from '../../../types';
 import '../../style/Celebrity/CelebrityContainer.css';
 import WelcomeMessage from '../WelcomeMessage';
 import CelebrityCard from './CelebrityCard';

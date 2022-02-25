@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { Movie } from '../../types';
+import { Movie } from '../../../types';
 import { useAppDispatch, useAppSelector } from '../../hooks/reduxHooks';
 import { ADD, REMOVE } from '../../redux/Watchlist';
 import getMovie from '../../services/getMovie';
