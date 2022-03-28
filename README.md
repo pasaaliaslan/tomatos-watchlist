@@ -17,4 +17,4 @@ Server directory includes backend components of the website.
 - [Cheerio.js](https://cheerio.js.org) is used to parse html data.
 
 ## Credits
-All celebrity and movie data presented in this app are scraped from [Rotten Tomatoes](https://www.rottentomatoes.com). The app is for personal and non-commercial usage only, specifically to leverage the author's coding practices. On any irregular traffic on the website itself or on this github page, they will both be closed permanently without a question to not violate any benefit of Rotten Tomatoes.
+All celebrity and movie data presented in this app are scraped from [Rotten Tomatoes](https://www.rottentomatoes.com). The app is for personal and non-commercial usage only, specifically to leverage the author's coding practices. On any irregular traffic on the website itself or on this github page, they will both be closed permanently without a question to not violate any benefit of [Rotten Tomatoes](https://www.rottentomatoes.com).
